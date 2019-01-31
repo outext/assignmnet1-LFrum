@@ -15,9 +15,11 @@ def download(g):
     """ This function downloads the json data from the url."""
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
+    # get all the p tags
     tags = soup.find_all(tag that you want to parse through)
     # TODO add code here
-    return (total)
+    print(reponse.read())
+    return (totali)
 
 
 def tokenize(a):
